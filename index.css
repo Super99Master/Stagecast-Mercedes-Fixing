@@ -1,0 +1,47 @@
+/* CSS styles */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.top-center {
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+
+.centered {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.bottom-center {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.very-bottom-center{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
+}
