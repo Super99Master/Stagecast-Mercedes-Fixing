@@ -6,7 +6,7 @@ var perPage = 100;
 var page = 1;
 
 async function loadDayQuizJson(){
-    dayQuiz = fetch("./dayQuiz.json").then((response) => response.json());
+    dayQuiz = await fetch("./dayQuiz.json").then((response) => response.json());
     dayIndex = dayQuiz["days"].length - 1;
     updateQuadrant();
     firstDay = new Date(dayQuiz["days"][0].slice().reverse().join("/"));
