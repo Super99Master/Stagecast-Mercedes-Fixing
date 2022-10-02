@@ -1,0 +1,76 @@
+<html>
+<head>
+    <title>Stagecast Mercedes Leaderboard</title>
+    <script type="text/javascript" src="./js.js"></script>
+    <link rel="stylesheet" href="./css.css">
+</head>
+<body onload="onload()">
+    <div id= "quadrant1">
+        <h1>Stagecast Mercedes Leaderboard</h1>
+        <table class="quadTable">
+            <tr>
+                <td class="alignleft">Date :</td>
+                <td id="date" class="alignright">dd / mm / yyyy</td>
+            </tr>
+            <tr>
+                <td class="alignleft">Total Participants :</td>
+                <td id="nplayer" class="alignright">0</td>
+            </tr>
+            <tr>
+                <td class="alignleft">Time Left :</td>
+                <td id="time" class="alignright">20 : 20 : 20</td>
+            </tr>
+        </table>
+    </div>
+    <div id= "quadrant2">
+        <h2 class="alignleft">Go to page:</h2>
+        <span class="inline">
+            <input type="number" id="input_page" min="1" value="1">
+            <button type="button" id="button_page" onclick="goToPage()">Refresh</button>
+        </span>
+        <h2 class="alignleft">User per page:</h2>
+        <span class="inline">
+            <input type="number" id="input_perpage" min="1" value="100">
+            <button type="button" id="button_perpage" onclick="setPerPage()">Refresh</button>
+        </span>
+        <h2 class="alignleft">Old Quiz:</h2>
+        <span class="inline">
+            <input type="date" id="input_date">
+            <button type="button" id="button_date" onclick="goToDate()">Go To</button>
+        </span>
+        <h2 class="alignleft">Find yourself:</h2>
+        <span class="inline">
+            <input type="text" id="input_username" value="yourUsername#id">
+            <button type="button" id="button_username" onclick="findPlayer()">Find</button>
+        </span>
+        <p></p>
+        <div id="findResults">
+            <h1></h1>
+            <table class="quadTable">
+                <tr>
+                    <td class="alignleft"></td>
+                    <td class="alignright"></td>
+                </tr>
+                <tr>
+                    <td class="alignleft"></td>
+                    <td class="alignright"></td>
+                </tr>
+                <tr>
+                    <td class="alignleft"></td>
+                    <td class="alignright"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id= "quadrant3">
+        <h4>Not affiliated, associated, authorized, endorsed by, or in any way officially connected with <br> Riot Games, Mercedes or Stagecast <br> Image courtesy of Riot Games</h4>
+    </div>
+    <table id="leaderboard" cellspacing="0">
+        <thead>
+            <th class="pos">Position</th>
+            <th class="name">Name</th>
+            <th class="point">Points</th>
+        </thead>
+    </table>
+</body>
+</html>

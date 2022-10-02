@@ -1,0 +1,102 @@
+body{
+    background-image: url('../Assets/W22_BG.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+}
+
+#quadrant1 {
+    position: fixed; 
+    top: 10px;
+    left: 15%;
+    width: 25%;
+    height: 250px;
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    background: #171717; 
+}
+
+#quadrant2 {
+    position: fixed; 
+    top: 300px;
+    left: 15%;
+    width: 25%;
+    height: 425px;
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    background: #171717; 
+}
+
+#quadrant3 {
+    position: fixed; 
+    bottom: 10px;
+    left: 15%;
+    width: 25%;
+    height: 100px;
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    background: #171717; 
+}
+
+.quadTable{
+    width: 100%;
+    color: white;
+    font-size: 30px;
+}
+
+.alignleft{
+    position: relative;
+    left: 50px;
+    text-align: left;
+}
+
+.alignright{
+    position: relative;
+    right: 50px;
+    text-align: right;
+}
+
+.inline{
+    display: inline-block;
+}
+
+#leaderboard {
+    position: absolute;  
+    top: 10px;
+    left: 50%;
+    width: 35%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 25px;
+    background: #171717;
+}
+.pos{
+    position: relative;
+    left: 0px;
+    width: 150px;
+    text-align: center;
+}
+
+.name{
+    text-align: center;
+    background: #202020; 
+}
+
+.point{
+    width: 300px;
+    text-align: center;
+}
+
+.space1{
+    height: 1px;
+    background: #171717; 
+}
+
+.space2{
+    height: 1px;
+    background: #202020; 
+}
