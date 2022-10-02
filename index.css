@@ -5,6 +5,13 @@
     color: white;
 }
 
+body{
+    background-image: url('../Assets/W22_BG.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 .top-center {
     position: absolute;
     top: 8px;
