@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url('../Assets/W22_BG.jpg');
+    background-image: url('./Assets/W22_BG.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
