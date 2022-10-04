@@ -1296,7 +1296,7 @@
 							//		this.answerId = 1;
 							//		break;
 							//}
-							this.answerId = [0,1,1,2,2,3,2,3,3,2,2,3,3,2,2,2,1,3,1,2,1][this.question.id]
+							this.answerId = [0,1,1,3,1,2,2,3,1,1,1,1,3,1,1,1,3,1,2,3,2][this.question.id]
 
 							this.$SDK.quest.respondToChallenge(this.question.id, this.question.hash, this.answerId, a).then((function(e) {
 								n.checkAnswerTimeout = setTimeout((function() {
